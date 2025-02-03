@@ -35,5 +35,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://giomont.github.io/ubuntobar"
+  "homepage": "https://giomont.github.io/ubuntobar",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
