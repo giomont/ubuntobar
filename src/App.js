@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Ubuntu App<code>src/App.js</code> para hacer los pedidos , actualizar la lista de productos y hacer seguimiento de  las mesas
         </p>
         <a
           className="App-link"
