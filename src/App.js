@@ -16,6 +16,10 @@ function App() {
     setProduct({ nombre: '', cantidad: '', precio: '' });
   };
 
+  const getTotal = () => {
+    return products.reduce((total, prod) => total + (prod.cantidad * prod.precio), 0);
+  };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -60,10 +64,10 @@ function App() {
             </li>
           ))}
         </ul>
+        <h2>Total del Pedido: ${getTotal()}</h2>
       </header>
     </div>
   );
 }
 
 export default App;
-
